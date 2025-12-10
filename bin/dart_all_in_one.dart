@@ -1,7 +1,12 @@
-void main(){
-  var mahabur=10;
-  var laboni =10;
-  var x =mahabur+laboni;
 
-  print({"The calclutaion is $x"});
+mahabur(int x,int y){
+  print(x+y);
+
+}
+
+void main(){
+mahabur(10, 20);
+mahabur(100, 200);
+mahabur(300, 100);
+mahabur(1000, 2000);
 }
